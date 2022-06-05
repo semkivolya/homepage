@@ -22,6 +22,7 @@ body {
     max-width: 900px;
 }
 
+
 .fh {
     display: flex;
     flex-direction: row;
@@ -260,4 +261,29 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.interests__header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.interests__content {
+    color: var(--secondary-text-color);
+    text-align: justify;
+}
+.interests__content ul {
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.interests__content li {
+    text-align: center;
+}
+
+.interests__content li img{
+    height: 24px;
+    width: 24px;
 }
